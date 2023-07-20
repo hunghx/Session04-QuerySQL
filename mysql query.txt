@@ -1,0 +1,17 @@
+Câu lệnh truy vấn dữ liệu :
+
+SELECT ... - lấy những cột nào 
+FROM ... từ những bảng nào (JOIN)
+WHERE ... điều kiện lọc (chưa được nhóm)
+GROUP BY ... nhóm theo cột nào
+HAVING ... điều kiện lọc (sau khi nhóm)
+ORDER BY ... sắp xếp những cột dữ liệu theo chiều nào(asc, desc)
+(LIMIT,OFFSET) - limit là lấy tối đa bao nhiêu bản ghi, bắt đầu lọc từ vị trí bản ghi số mấy
+
+
+
+-- Join : INNER JOIN , LEFT JOIN , RIGHT JOIN , FULL OUTER JOIN 
++ INNER JOIN / JOIN : chỉ lấy dữ liệu chung của 2 hoặc nhiều bảng.
++ RIGHT JOIN / (LEFT JOIN) :  Lấy tất cả bản ghi của bảng bên phải mà  không cần quan tâm đến bảng bên trái
+ có dữ liệu khớp hay không.
++ FULL OUTER JOIN : Lấy tất cả bản ghi ở cả 2
